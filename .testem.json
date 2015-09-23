@@ -7,7 +7,7 @@
 
   "serve_files": [
     "dist/scripts/vendor.min.js",
-    "dist/scripts/**/*.js",
+    ".tmp/scripts/app.js",
     "tests/*.js"
   ],
 
