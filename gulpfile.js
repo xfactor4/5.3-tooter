@@ -139,8 +139,8 @@ gulp.task('browserSync', function() {
 
 gulp.task('watch', ['browserSync', 'styles'], function(){
   gulp.watch('app/scss/**/*.scss', ['styles']);
-  gulp.watch('app/js/**/*.js', ['scripts']);
-  gulp.watch('templates/**/*.hbs', ['templates']);
+  gulp.watch('app/scripts/**/*.js', ['scripts']);
+  gulp.watch('app/templates/**/*.hbs', ['templates']);
   gulp.watch('app/images/**/*.+(png|jpg|jpeg|gif|svg)', ['images']);
   gulp.watch('app/fonts/**/*', ['fonts']);
   gulp.watch('bower.json', ['wiredep']);
